@@ -12,9 +12,14 @@ module.exports = {
       },
       colors: {
         red: {
-          700: '#E50914',
+          600: 'rgba(167, 0, 0, 0.8)',
+          700: 'rgb(220 38 38)',
+          800: '#E50914'
         },
       },
+      dropShadow: {
+        'md': '0 6px 6px rgba(150, 20, 20)',
+      }
     },
   },
   plugins: [],
